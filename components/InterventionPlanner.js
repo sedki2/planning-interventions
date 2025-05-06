@@ -1,9 +1,9 @@
 
 import { useState } from 'react'
-import { Input } from '@/components/ui/input'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent } from '@/components/ui/card'
-import { Textarea } from '@/components/ui/textarea'
+import { Input } from '../components/ui/input'
+import { Button } from '../components/ui/button'
+import { Card, CardContent } from '../components/ui/card'
+import { Textarea } from '../components/ui/textarea'
 
 export default function InterventionPlanner() {
   const [interventions, setInterventions] = useState([])
